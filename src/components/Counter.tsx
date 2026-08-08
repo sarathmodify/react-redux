@@ -3,6 +3,11 @@ import { increment, decrement, incrementByAmount,reset } from '../features/count
 
 export const Counter = () => {
   const count = useAppSelector((state) => state.counter.value);
+//   {
+//   counter: { state hold this data;
+//     value: 0
+//   }
+// }
   const dispatch = useAppDispatch();
   return (
     <div>
